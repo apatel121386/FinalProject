@@ -1,0 +1,40 @@
+{
+  "name": "spotify",
+  "version": "1.0.0",
+  "description": "spotify",
+  "main": "server/index.js",
+  "scripts": {
+    "prestart": "cd client && yarn build",
+    "start": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nsdotorg/spotify.git"
+  },
+  "keywords": [
+    "react.js",
+    "spotify api",
+    "node.js",
+    "express.js",
+    "javascript",
+    "postgresql"
+  ],
+  "author": "Ankit Patel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nsdotorg/spotify/issues"
+  },
+  "homepage": "https://github.com/nsdotorg/spotify#readme",
+  "dependencies": {
+    "connect-history-api-fallback": "^1.6.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "pg": "^8.7.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
